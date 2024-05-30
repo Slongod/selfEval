@@ -39,7 +39,7 @@ void main()
         cout << "Test #" << i << ": ";
         system(("time ./" + prob_name).c_str());
         if (system(("diff ./" + getname(prob_name , out_name) + " " + getname(prob_name , i , ans_name) + " -B -b -q").c_str())) {
-            cout << "\033[31m Unaccepted \033[0m \n\n";
+            cout << "\033[31m Bitch Unaccepted \033[0m \n\n";
         } else {
             cout << "\033[32m Accepted \033[0m \n\n";
         }
