@@ -44,6 +44,6 @@ void main()
             cout << "\033[32m Accepted \033[0m \n\n";
         }
         system(("mv " + getname(prob_name , in_name) + " " + getname(prob_name , i , in_name)).c_str());
-    } system("exit");
+    }
 }
 }int main(){return Slongod :: main(),0;}
